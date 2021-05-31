@@ -22,5 +22,10 @@ table product{
   description varchar
 }
 
+table abcdef{
+  id integer [pk]
+  aaa varchar
+}
+
 ref: user.id < order.uid
 ref: product.id < order.pid
