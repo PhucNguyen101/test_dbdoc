@@ -1,0 +1,26 @@
+Project first_project {
+  database_type: 'PostgreSQL'
+  Note: '''
+    # Ecommerce Database
+    **markdown content here**
+  '''
+}
+
+table user{
+  id integer [PK]
+  name varchar
+}
+
+table order{
+  oid integer [pk]
+  uid integer [pk]
+  pid integer [pk]
+}
+
+table product{
+  id integer [pk]
+  description varchar
+}
+
+ref: user.id < order.uid
+ref: product.id < order.pid
