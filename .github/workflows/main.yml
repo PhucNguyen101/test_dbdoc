@@ -43,5 +43,5 @@ jobs:
           
       - name: Update dbdocs project
         env:
-          DBDOCS_TOKEN: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InBodWMubmd1eWVuIiwidG9rZW4iOiI3YzkyOWIzN2JjYmRlZjk5NDhmNDI2Njg1NGE3Mjg2MSIsImlhdCI6MTYyMjQ2Njk4OH0.8r3uRma56COTssRPEn__5E45ejQPNjCgZ3jwg0b7iHI
+          DBDOCS_TOKEN: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjQ4NSwidG9rZW4iOiI1NTFmMGQxOTg4OWIxNmQ0NmU0YWQyYWMwNzUzN2Q4MSIsImlhdCI6MTY2Nzk4NTMxMX0.nZ2sF8bXTrkVwIeZgtni3vsIUoH0MAxxnvIt0hTfgUg
         run: dbdocs build ./abc.dbml
