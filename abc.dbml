@@ -7,7 +7,7 @@ Project first_project {
 }
 
 table hello {
-  hi int
+  hi
 }
 
 table user{
