@@ -45,4 +45,4 @@ jobs:
         env:
           DBDOCS_TOKEN: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjQ4NSwidG9rZW4iOiI1NTFmMGQxOTg4OWIxNmQ0NmU0YWQyYWMwNzUzN2Q4MSIsImlhdCI6MTY2Nzk4NTMxMX0.nZ2sF8bXTrkVwIeZgtni3vsIUoH0MAxxnvIt0hTfgUg
         run: | 
-          dbdocs build ./bug.dbml
+          dbdocs build ./abc.dbml
