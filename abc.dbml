@@ -6,6 +6,10 @@ Project first_project {
   '''
 }
 
+table hello {
+  hi int
+}
+
 table user{
   id integer [PK]
   name varchar
